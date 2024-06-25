@@ -109,7 +109,7 @@ while True:
         break
     
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    stylized_frame = stylize_frame(frame_rgb, alpha=0.3)
+    stylized_frame = stylize_frame(frame_rgb, alpha=0.6)
     
     # Convert RGB to BGR for OpenCV
     stylized_frame_bgr = cv2.cvtColor(stylized_frame, cv2.COLOR_RGB2BGR)
